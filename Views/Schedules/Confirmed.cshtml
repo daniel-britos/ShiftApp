@@ -1,0 +1,21 @@
+﻿@model Schedule
+
+
+<h2> Confirmed shift!.. </h2>
+<br />
+
+<div class="container">
+    <a asp-action="Shifts" asp-controller="Schedules">New shift</a>
+
+    <h3>Your Shift is:</h3><br />
+    <h6>Speciality: @Model.Speciality</h6>
+    <h6>Day: @Model.Date.Day</h6><br />
+    <h6>Month: @Model.Date.Month</h6><br />
+    <h6>Year: @Model.Date.Year</h6><br />
+    <h6>Hour: @Model.Hour</h6>
+</div>
+<br />
+
+<a asp-action="Index" asp-controller="Home">Back home</a>
+
+

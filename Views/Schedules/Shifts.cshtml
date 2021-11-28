@@ -1,0 +1,60 @@
+﻿<!-- estoy enviando dos veces lo mismo si pongo shifts en asp-action. Tengo que ver el crud como se hizo-->
+<h2> Get your shift.. </h2>
+<div class="row">
+    <div class="col-md-6">
+        <form asp-action="Confirmed" method="post">
+            <!-- ME ESTA DEVOLVIENDO LA ACCION SHIFTS TENGO QUE PONER OTRA OPCION PARA QUE NO SE EJECUTE DOS VECES-->
+
+            <div class="form-group">
+                <label for="speciality">Speciality</label>
+                <select name="speciality">
+                    <option name="speciality" value="...">...</option>
+                    <option name="speciality" value="example1">Speciality example1</option>
+                    <option name="speciality" value="example2">Speciality example2</option>
+                    <option name="speciality" value="example3">Speciality example3</option>
+                    <option name="speciality" value="example4">Speciality example4</option>
+                    <option name="speciality" value="example5">Speciality example5</option>
+                    <option name="speciality" value="example6">Speciality example6</option>
+                    <option name="speciality" value="example7">Speciality example7</option>
+                    <option name="speciality" value="example8">Speciality example8</option>
+                    <option name="speciality" value="example9">Speciality example9</option>
+                    <option name="speciality" value="example10">Speciality example10</option>
+                    <option name="speciality" value="example11">Speciality example11</option>
+                    <option name="speciality" value="example12">Speciality example12</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Date</label>
+                <input type="date" class="form-control" name="date" placeholder="Enter your date...">
+            </div>
+
+            <div class="form-group">
+                <label for="hour">Hour</label>
+                <select name="hour">
+                    <option name="hour" value="...">...</option>
+                    <option name="hour" value="0800">08:00</option>
+                    <option name="hour" value="0830">08:30</option>
+                    <option name="hour" value="0900">09:00</option>
+                    <option name="hour" value="0930">09:30</option>
+                    <option name="hour" value="1000">10:00</option>
+                    <option name="hour" value="1030">10:30</option>
+                    <option name="hour" value="1100">11:00</option>
+                    <option name="hour" value="1130">11:30</option>
+                    <option name="hour" value="1200">12:00</option>
+                    <option name="hour" value="1230">12:30</option>
+                    <option name="hour" value="1300">13:00</option>
+                    <option name="hour" value="1330">13:30</option>
+                    <option name="hour" value="1400">14:00</option>
+                    <option name="hour" value="1430">14:30</option>
+                    <option name="hour" value="1500">15:00</option>
+                    <option name="hour" value="1530">15:30</option>
+                    <option name="hour" value="1600">16:00</option>
+                    <option name="hour" value="1630">16:30</option>
+                    <option name="hour" value="1700">17:00</option>
+                </select>
+            </div>
+            <input type="submit" value="Send">
+        </form>
+    </div>
+</div>
