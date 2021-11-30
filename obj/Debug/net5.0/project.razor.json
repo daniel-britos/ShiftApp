@@ -15624,6 +15624,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\Daniel\\Desktop\\comIT\\proyectoFinal\\proyectoVision\\ShiftApp\\Views\\Specialtlies\\Index.cshtml",
+      "TargetPath": "Views\\Specialtlies\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\Daniel\\Desktop\\comIT\\proyectoFinal\\proyectoVision\\ShiftApp\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
@@ -15631,6 +15636,11 @@
     {
       "FilePath": "c:\\Users\\Daniel\\Desktop\\comIT\\proyectoFinal\\proyectoVision\\ShiftApp\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Daniel\\Desktop\\comIT\\proyectoFinal\\proyectoVision\\ShiftApp\\Views\\Specialtlies\\Create.cshtml",
+      "TargetPath": "Views\\Specialtlies\\Create.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -15651,6 +15661,11 @@
     {
       "FilePath": "c:\\Users\\Daniel\\Desktop\\comIT\\proyectoFinal\\proyectoVision\\ShiftApp\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
       "TargetPath": "Areas\\Identity\\Pages\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\Daniel\\Desktop\\comIT\\proyectoFinal\\proyectoVision\\ShiftApp\\Views\\Specialtlies\\Edit.cshtml",
+      "TargetPath": "Views\\Specialtlies\\Edit.cshtml",
       "FileKind": "mvc"
     },
     {

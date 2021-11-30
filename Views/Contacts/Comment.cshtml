@@ -1,14 +1,10 @@
 ﻿
 @model Contact
+ 
 <h2> Let us a comment.. </h2>
 <div class="row">
     <div class="col-md-6">
-
         <form asp-action="Save" method="post">
-            @if (!string.IsNullOrEmpty(ViewBag.msg))
-            {
-                <h1>@ViewBag.msg</h1>
-            }
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="Name" class="contro-label"></label>
@@ -32,6 +28,10 @@
             <div class="form-group">
                 <input type="submit" value="Submit" class="btn btn-primary" />
             </div>
+            @if (!string.IsNullOrEmpty(ViewBag.msg))
+            {
+                <h3>@ViewBag.msg</h3>
+            }
         </form>
     </div>
 </div>
@@ -43,5 +43,3 @@
 }
 
 
-@Html.ValidationSummary()
-@Html.Partial("/Views/Shared/_PopUpPartialView.cshtml")

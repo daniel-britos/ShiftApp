@@ -16,11 +16,7 @@ namespace ShiftApp.Controllers
         {
             _context = context;
         }
-        public IActionResult Comment()
-        {
 
-            return View();
-        }
 
 
         [HttpPost]
@@ -36,18 +32,22 @@ namespace ShiftApp.Controllers
             };
 
 
-
             _context.Posts.Add(NewNote);
             _context.SaveChanges();
-            if(NewNote.Note != null)
+            if (NewNote.Note != null)
             {
-                ViewBag.msg = "Enviado";
+                ViewBag.msg = "Message sent.. Within 48hs you will be attended by our staff.";
             }
 
 
-            return RedirectToAction("Comment");
+            return View("Comment");
 
         }
+        public IActionResult Comment()
+        {
+            return View();
+        }
+
 
 
     }

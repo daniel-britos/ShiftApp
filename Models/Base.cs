@@ -13,5 +13,15 @@ namespace ShiftApp.Models
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int id { get; set; }
+
+        [Display(Name = "Name")]
+        [StringLength(12)]
+        [Required(ErrorMessage = "Name required.")]
+        public string Name { get; set; }
+
+        [Required(ErrorMessage = "Last name required.")]
+        [StringLength(12)]
+        [Display(Name = "Last Name")]
+        public string LastName { get; set; }
     }
 }
