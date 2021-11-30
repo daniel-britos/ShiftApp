@@ -30,7 +30,7 @@ namespace ShiftApp.Controllers
         {
             ViewBag.SpecialtiesList = _context.Specialties.ToList();
 
-            return View();
+            return View()
         }
 
         public IActionResult Save(string name, string lastname, string registration, int specialtlyID)
