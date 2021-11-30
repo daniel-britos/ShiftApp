@@ -28,7 +28,7 @@ namespace ShiftApp.Controllers
 
         public IActionResult Create()
         {
-            ViewBag.EspecialidadesList = _context.Specialties.ToList();
+            ViewBag.SpecialtiesList = _context.Specialties.ToList();
 
             return View();
         }
