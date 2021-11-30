@@ -22,8 +22,8 @@ namespace ShiftApp.Controllers
 
         public IActionResult Index()
         {
-            List<Professional> lista = _context.Professionals.Include("Specialtly").ToList();
-            return View(lista);
+            List<Professional> list = _context.Professionals.Include("Specialtly").ToList();
+            return View(list);
         }
 
         public IActionResult Create()

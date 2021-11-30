@@ -68,15 +68,6 @@ namespace ShiftApp.Controllers
 
         private Specialty Find(int id)
         {
-            // Especialidad find = null;
-            // foreach (var item in EspacioNube.Web.Program.EspecialidadesList)
-            // {
-            //     if (item.ID == id)
-            //     {
-            //         find = item;
-            //         break;
-            //     }
-            // }
             Specialty find = _context.Specialties.Find(id);
 
             return find;
