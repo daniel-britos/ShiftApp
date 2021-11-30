@@ -33,7 +33,7 @@ namespace ShiftApp.Controllers
             return View();
         }
 
-        public IActionResult Guardar(string name, string lastname, string registration, int specialtlyID)
+        public IActionResult Save(string name, string lastname, string registration, int specialtlyID)
         {
             Professional oNew = new Professional()
             {

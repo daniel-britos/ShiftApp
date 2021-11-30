@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace ShiftApp.Models
 {
-    public class Professional : Base
+    public class Professional : Person
     {
         public string Registration { get; set; }
 
@@ -16,7 +16,7 @@ namespace ShiftApp.Models
         public int SpecialityID { get; set; }
 
         [ForeignKey("EspecialidadID")]
-        public Speciality Specialities { get; set; }
+        public Specialty Specialities { get; set; }
 
         public List<Patient> Patients { get; set; }
     }

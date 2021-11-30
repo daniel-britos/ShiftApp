@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ShiftApp.Models
 {
-    public class Contact : Base
+    public class Contact : Person
     {
 
         [Required(ErrorMessage = "e-mail required.")]

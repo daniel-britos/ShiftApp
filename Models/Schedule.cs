@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ShiftApp.Models
 {
-    public class Schedule : Base
+    public class Schedule : Person
     {
         public string Speciality { get; set; }
         public DateTime Date { get; set; }

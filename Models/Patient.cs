@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ShiftApp.Models
 {
-    public class Patient : Base
+    public class Patient : Person
     {
         public int PersonalDocument{ get; set; }
         public DateTime DateOfBirth { get; set; }
@@ -20,6 +20,6 @@ namespace ShiftApp.Models
         [DefaultValue("0000000")]
         public string CellPhone { get; set; }
 
-        public List<Profesional> Profesionales { get; set; }
+        public List<Professional> Professionals { get; set; }
     }
 }

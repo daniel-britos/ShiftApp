@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ShiftApp.Models
 {
-    public class Specialty : Base
+    public class Specialty : Person
     {
         [Required]
         public string Area { get; set; }

@@ -25,10 +25,10 @@ namespace ShiftApp.Data
         {
             base.OnModelCreating(builder);
 
-            builder.Entity<Profesional>()
-            .HasMany(p => p.Pacientes)
-            .WithMany(p => p.Profesionales)
-            .UsingEntity(j => j.ToTable("ProfesionalesPacientes"));
+            builder.Entity<Professional>()
+            .HasMany(p => p.Patients)
+            .WithMany(p => p.Professionals)
+            .UsingEntity(j => j.ToTable("ProfessionalsPatients"));
 
             builder.Entity<ApplicationUser>(entity => entity.ToTable(name: "Users"));
             builder.Entity<IdentityRole>(entiy => entiy.ToTable(name: "Roles"));
